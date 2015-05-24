@@ -1,4 +1,5 @@
 Introduction
+
 The script run_analysis.R performs the 5 steps described in the course project's definition.
 
 The test and train data are merged using the cbind() and rbind() functions. Then, only those columns with the mean and standard deviation measures are taken from the whole dataset. After extracting these columns, they are given the correct names, taken from features.txt.
@@ -8,9 +9,12 @@ Finally, we generate a new dataset with all the average measures for each subjec
 The output file is called tidy_dat2.txt, and uploaded to this repository.
 
 Variables
+
+
 Xtrain, Ytrain, Xtest, Ytest, subjecttrain and subjecttest contain the data from the downloaded files.
 They are merged for further analyis 
 Finally, tiday_dat2 contains the relevant averages which will be later stored in a .txt file. 
 
 Packages used
+
 plyr
