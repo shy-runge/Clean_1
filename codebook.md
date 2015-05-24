@@ -13,7 +13,7 @@ Variables
 
 Xtrain, Ytrain, Xtest, Ytest, subjecttrain and subjecttest contain the data from the downloaded files.
 They are merged for further analyis 
-Finally, tiday_dat2 contains the relevant averages which will be later stored in a .txt file. 
+Finally, tidy_dat2 contains the relevant tidy date and stored in .txt file. 
 
 Packages used
 
